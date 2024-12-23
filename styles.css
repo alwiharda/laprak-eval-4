@@ -1,0 +1,43 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#Projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5 rem;
+}
+.logo {
+  height: 80px;
+  margin-right: 40px;
+}
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  display: none; /* Sembunyikan menu awalnya */
+  position: absolute;
+  top: 100%; /* Tempatkan menu tepat di bawah item */
+  left: 0;
+  background-color: white; /* Sesuaikan warna background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Tambahkan bayangan */
+  z-index: 1000;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block; /* Tampilkan menu saat hover */
+}
+
+.nav-item.dropdown .dropdown-item {
+  padding: 10px 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-item.dropdown .dropdown-item:hover {
+  background-color: #e9ecef; /* Warna saat item di-hover */
+}
